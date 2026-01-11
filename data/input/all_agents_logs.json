@@ -1,0 +1,364 @@
+{
+  "workflows": [
+    {
+      "workflow_id": "WF_CUST1000",
+      "customer_id": "CUST1000",
+      "logs": [
+        {
+          "customer_id": "CUST1000",
+          "total_open_AR": 111135.39,
+          "currency": "USD",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "ExposureAggregator01"
+        },
+        {
+          "customer_id": "CUST1000",
+          "risk_score": 51,
+          "risk_category": "High",
+          "payment_delay_factor": 7.5,
+          "exposure_ratio": 1.15,
+          "avg_risk_weight": 0.1,
+          "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "RiskScoring01"
+        },
+        {
+          "customer_id": "CUST1000",
+          "previous_limit": 137221.0,
+          "new_limit": 137221.0,
+          "rule_applied": "High Risk Policy",
+          "decision_summary": "In accordance with the High Risk Policy, the credit limit for High Risk customer CUST1000 was reviewed and maintained at 137,221.00 USD.",
+          "validation_status": "PASS",
+          "timestamp": "2026-01-11T14:37:25.569268",
+          "agent_id": "LimitSetter01"
+        }
+      ]
+    },
+    {
+      "workflow_id": "WF_CUST1001",
+      "customer_id": "CUST1001",
+      "logs": [
+        {
+          "customer_id": "CUST1001",
+          "total_open_AR": 131758.18,
+          "currency": "USD",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "ExposureAggregator01"
+        },
+        {
+          "customer_id": "CUST1001",
+          "risk_score": 60,
+          "risk_category": "High",
+          "payment_delay_factor": 5.97,
+          "exposure_ratio": 1.21,
+          "avg_risk_weight": 0.34,
+          "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "RiskScoring01"
+        },
+        {
+          "customer_id": "CUST1001",
+          "previous_limit": 86044.0,
+          "new_limit": 86044.0,
+          "rule_applied": "High Risk Policy",
+          "decision_summary": "In accordance with the High Risk Policy, the credit limit for High Risk customer CUST1001 was reviewed and maintained at 86,044.00 USD.",
+          "validation_status": "PASS",
+          "timestamp": "2026-01-11T14:37:25.569268",
+          "agent_id": "LimitSetter01"
+        }
+      ]
+    },
+    {
+      "workflow_id": "WF_CUST1002",
+      "customer_id": "CUST1002",
+      "logs": [
+        {
+          "customer_id": "CUST1002",
+          "total_open_AR": 127654.19,
+          "currency": "USD",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "ExposureAggregator01"
+        },
+        {
+          "customer_id": "CUST1002",
+          "risk_score": 86,
+          "risk_category": "Low",
+          "payment_delay_factor": 7.47,
+          "exposure_ratio": 1.98,
+          "avg_risk_weight": 0.17,
+          "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "RiskScoring01"
+        },
+        {
+          "customer_id": "CUST1002",
+          "previous_limit": 62230.0,
+          "new_limit": 80899.0,
+          "rule_applied": "Low Risk Policy",
+          "decision_summary": "The credit limit for Low Risk customer CUST1002 was increased by 30% to 80,899.00 USD in accordance with the applied Low Risk Policy.",
+          "validation_status": "PASS",
+          "timestamp": "2026-01-11T14:37:25.569268",
+          "agent_id": "LimitSetter01"
+        }
+      ]
+    },
+    {
+      "workflow_id": "WF_CUST1003",
+      "customer_id": "CUST1003",
+      "logs": [
+        {
+          "customer_id": "CUST1003",
+          "total_open_AR": 109520.87,
+          "currency": "USD",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "ExposureAggregator01"
+        },
+        {
+          "customer_id": "CUST1003",
+          "risk_score": 50,
+          "risk_category": "High",
+          "payment_delay_factor": 6.63,
+          "exposure_ratio": 0.75,
+          "avg_risk_weight": 0.16,
+          "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "RiskScoring01"
+        },
+        {
+          "customer_id": "CUST1003",
+          "previous_limit": 89843.0,
+          "new_limit": 89843.0,
+          "rule_applied": "High Risk Policy",
+          "decision_summary": "In accordance with the High Risk Policy, the credit limit for High Risk customer CUST1003 was reviewed and maintained at 89,843.00 USD.",
+          "validation_status": "PASS",
+          "timestamp": "2026-01-11T14:37:25.569268",
+          "agent_id": "LimitSetter01"
+        }
+      ]
+    },
+    {
+      "workflow_id": "WF_CUST1004",
+      "customer_id": "CUST1004",
+      "logs": [
+        {
+          "customer_id": "CUST1004",
+          "total_open_AR": 112568.84,
+          "currency": "USD",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "ExposureAggregator01"
+        },
+        {
+          "customer_id": "CUST1004",
+          "risk_score": 50,
+          "risk_category": "High",
+          "payment_delay_factor": 5.53,
+          "exposure_ratio": 0.95,
+          "avg_risk_weight": 0.14,
+          "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "RiskScoring01"
+        },
+        {
+          "customer_id": "CUST1004",
+          "previous_limit": 110328.0,
+          "new_limit": 110328.0,
+          "rule_applied": "High Risk Policy",
+          "decision_summary": "In accordance with the High Risk Policy, the credit limit for High Risk customer CUST1004 was reviewed and maintained at 110,328.00 USD.",
+          "validation_status": "PASS",
+          "timestamp": "2026-01-11T14:37:25.569268",
+          "agent_id": "LimitSetter01"
+        }
+      ]
+    },
+    {
+      "workflow_id": "WF_CUST1005",
+      "customer_id": "CUST1005",
+      "logs": [
+        {
+          "customer_id": "CUST1005",
+          "total_open_AR": 98293.09,
+          "currency": "USD",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "ExposureAggregator01"
+        },
+        {
+          "customer_id": "CUST1005",
+          "risk_score": 50,
+          "risk_category": "High",
+          "payment_delay_factor": 7.73,
+          "exposure_ratio": 1.02,
+          "avg_risk_weight": 0.27,
+          "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "RiskScoring01"
+        },
+        {
+          "customer_id": "CUST1005",
+          "previous_limit": 96509.0,
+          "new_limit": 96509.0,
+          "rule_applied": "High Risk Policy",
+          "decision_summary": "In accordance with the High Risk Policy, the credit limit for High Risk customer CUST1005 was reviewed and maintained at 96,509.00 USD.",
+          "validation_status": "PASS",
+          "timestamp": "2026-01-11T14:37:25.569268",
+          "agent_id": "LimitSetter01"
+        }
+      ]
+    },
+    {
+      "workflow_id": "WF_CUST1006",
+      "customer_id": "CUST1006",
+      "logs": [
+        {
+          "customer_id": "CUST1006",
+          "total_open_AR": 101384.55,
+          "currency": "USD",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "ExposureAggregator01"
+        },
+        {
+          "customer_id": "CUST1006",
+          "risk_score": 60,
+          "risk_category": "High",
+          "payment_delay_factor": 9.23,
+          "exposure_ratio": 1.31,
+          "avg_risk_weight": 0.18,
+          "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "RiskScoring01"
+        },
+        {
+          "customer_id": "CUST1006",
+          "previous_limit": 90214.0,
+          "new_limit": 90214.0,
+          "rule_applied": "High Risk Policy",
+          "decision_summary": "In accordance with the High Risk Policy, the credit limit for High Risk customer CUST1006 was reviewed and maintained at 90,214.00 USD.",
+          "validation_status": "PASS",
+          "timestamp": "2026-01-11T14:37:25.569268",
+          "agent_id": "LimitSetter01"
+        }
+      ]
+    },
+    {
+      "workflow_id": "WF_CUST1007",
+      "customer_id": "CUST1007",
+      "logs": [
+        {
+          "customer_id": "CUST1007",
+          "total_open_AR": 109582.97,
+          "currency": "USD",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "ExposureAggregator01"
+        },
+        {
+          "customer_id": "CUST1007",
+          "risk_score": 79,
+          "risk_category": "Medium",
+          "payment_delay_factor": 6.7,
+          "exposure_ratio": 1.8,
+          "avg_risk_weight": 0.2,
+          "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "RiskScoring01"
+        },
+        {
+          "customer_id": "CUST1007",
+          "previous_limit": 141588.0,
+          "new_limit": 169905.6,
+          "rule_applied": "Medium Risk Policy",
+          "decision_summary": "The credit limit for Medium Risk customer CUST1007 was increased by 20% to 169,905.60 USD in accordance with the applied Medium Risk Policy.",
+          "validation_status": "PASS",
+          "timestamp": "2026-01-11T14:37:25.569268",
+          "agent_id": "LimitSetter01"
+        }
+      ]
+    },
+    {
+      "workflow_id": "WF_CUST1008",
+      "customer_id": "CUST1008",
+      "logs": [
+        {
+          "customer_id": "CUST1008",
+          "total_open_AR": 99694.04,
+          "currency": "USD",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "ExposureAggregator01"
+        },
+        {
+          "customer_id": "CUST1008",
+          "risk_score": 79,
+          "risk_category": "Medium",
+          "payment_delay_factor": 7.5,
+          "exposure_ratio": 1.82,
+          "avg_risk_weight": 0.14,
+          "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "RiskScoring01"
+        },
+        {
+          "customer_id": "CUST1008",
+          "previous_limit": 120226.0,
+          "new_limit": 144271.2,
+          "rule_applied": "Medium Risk Policy",
+          "decision_summary": "The credit limit for Medium Risk customer CUST1008 was increased by 20% to 144,271.20 USD in accordance with the applied Medium Risk Policy.",
+          "validation_status": "PASS",
+          "timestamp": "2026-01-11T14:37:25.569268",
+          "agent_id": "LimitSetter01"
+        }
+      ]
+    },
+    {
+      "workflow_id": "WF_CUST1009",
+      "customer_id": "CUST1009",
+      "logs": [
+        {
+          "customer_id": "CUST1009",
+          "total_open_AR": 100441.94,
+          "currency": "USD",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "ExposureAggregator01"
+        },
+        {
+          "customer_id": "CUST1009",
+          "risk_score": 50,
+          "risk_category": "High",
+          "payment_delay_factor": 8.5,
+          "exposure_ratio": 1.06,
+          "avg_risk_weight": 0.15,
+          "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+          "validation_status": "PASS",
+          "timestamp": "2025-12-02T00:00:00",
+          "agent_id": "RiskScoring01"
+        },
+        {
+          "customer_id": "CUST1009",
+          "previous_limit": 79220.0,
+          "new_limit": 79220.0,
+          "rule_applied": "High Risk Policy",
+          "decision_summary": "In accordance with the High Risk Policy, the credit limit for High Risk customer CUST1009 was reviewed and maintained at 79,220.00 USD.",
+          "validation_status": "PASS",
+          "timestamp": "2026-01-11T14:37:25.569268",
+          "agent_id": "LimitSetter01"
+        }
+      ]
+    }
+  ]
+}
