@@ -1,0 +1,122 @@
+[
+    {
+        "customer_id": "CUST1000",
+        "risk_score": 51,
+        "risk_category": "High",
+        "payment_delay_factor": 7.5,
+        "exposure_ratio": 1.15,
+        "avg_risk_weight": 0.1,
+        "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "RiskScoring01"
+    },
+    {
+        "customer_id": "CUST1001",
+        "risk_score": 60,
+        "risk_category": "High",
+        "payment_delay_factor": 5.97,
+        "exposure_ratio": 1.21,
+        "avg_risk_weight": 0.34,
+        "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "RiskScoring01"
+    },
+    {
+        "customer_id": "CUST1002",
+        "risk_score": 86,
+        "risk_category": "Low",
+        "payment_delay_factor": 7.47,
+        "exposure_ratio": 1.98,
+        "avg_risk_weight": 0.17,
+        "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "RiskScoring01"
+    },
+    {
+        "customer_id": "CUST1003",
+        "risk_score": 50,
+        "risk_category": "High",
+        "payment_delay_factor": 6.63,
+        "exposure_ratio": 0.75,
+        "avg_risk_weight": 0.16,
+        "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "RiskScoring01"
+    },
+    {
+        "customer_id": "CUST1004",
+        "risk_score": 50,
+        "risk_category": "High",
+        "payment_delay_factor": 5.53,
+        "exposure_ratio": 0.95,
+        "avg_risk_weight": 0.14,
+        "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "RiskScoring01"
+    },
+    {
+        "customer_id": "CUST1005",
+        "risk_score": 50,
+        "risk_category": "High",
+        "payment_delay_factor": 7.73,
+        "exposure_ratio": 1.02,
+        "avg_risk_weight": 0.27,
+        "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "RiskScoring01"
+    },
+    {
+        "customer_id": "CUST1006",
+        "risk_score": 60,
+        "risk_category": "High",
+        "payment_delay_factor": 9.23,
+        "exposure_ratio": 1.31,
+        "avg_risk_weight": 0.18,
+        "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "RiskScoring01"
+    },
+    {
+        "customer_id": "CUST1007",
+        "risk_score": 79,
+        "risk_category": "Medium",
+        "payment_delay_factor": 6.7,
+        "exposure_ratio": 1.8,
+        "avg_risk_weight": 0.2,
+        "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "RiskScoring01"
+    },
+    {
+        "customer_id": "CUST1008",
+        "risk_score": 79,
+        "risk_category": "Medium",
+        "payment_delay_factor": 7.5,
+        "exposure_ratio": 1.82,
+        "avg_risk_weight": 0.14,
+        "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "RiskScoring01"
+    },
+    {
+        "customer_id": "CUST1009",
+        "risk_score": 50,
+        "risk_category": "High",
+        "payment_delay_factor": 8.5,
+        "exposure_ratio": 1.06,
+        "avg_risk_weight": 0.15,
+        "calculation_logic": "Risk Score = (Payment Delay Factor*0.3)+(Exposure Ratio*100*0.4)+(Avg Risk Weight*100*0.3)",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "RiskScoring01"
+    }
+]
