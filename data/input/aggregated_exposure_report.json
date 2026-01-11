@@ -1,0 +1,82 @@
+[
+    {
+        "customer_id": "CUST1000",
+        "total_open_AR": 111135.39,
+        "currency": "USD",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "ExposureAggregator01"
+    },
+    {
+        "customer_id": "CUST1001",
+        "total_open_AR": 131758.18,
+        "currency": "USD",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "ExposureAggregator01"
+    },
+    {
+        "customer_id": "CUST1002",
+        "total_open_AR": 127654.19,
+        "currency": "USD",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "ExposureAggregator01"
+    },
+    {
+        "customer_id": "CUST1003",
+        "total_open_AR": 109520.87,
+        "currency": "USD",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "ExposureAggregator01"
+    },
+    {
+        "customer_id": "CUST1004",
+        "total_open_AR": 112568.84,
+        "currency": "USD",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "ExposureAggregator01"
+    },
+    {
+        "customer_id": "CUST1005",
+        "total_open_AR": 98293.09,
+        "currency": "USD",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "ExposureAggregator01"
+    },
+    {
+        "customer_id": "CUST1006",
+        "total_open_AR": 101384.55,
+        "currency": "USD",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "ExposureAggregator01"
+    },
+    {
+        "customer_id": "CUST1007",
+        "total_open_AR": 109582.97,
+        "currency": "USD",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "ExposureAggregator01"
+    },
+    {
+        "customer_id": "CUST1008",
+        "total_open_AR": 99694.04,
+        "currency": "USD",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "ExposureAggregator01"
+    },
+    {
+        "customer_id": "CUST1009",
+        "total_open_AR": 100441.94,
+        "currency": "USD",
+        "validation_status": "PASS",
+        "timestamp": "2025-12-02T00:00:00",
+        "agent_id": "ExposureAggregator01"
+    }
+]
