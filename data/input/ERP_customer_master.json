@@ -1,0 +1,52 @@
+[
+    {
+        "customer_id": "CUST1000",
+        "current_limit": 137221,
+        "currency": "USD"
+    },
+    {
+        "customer_id": "CUST1001",
+        "current_limit": 86044,
+        "currency": "USD"
+    },
+    {
+        "customer_id": "CUST1002",
+        "current_limit": 62230,
+        "currency": "USD"
+    },
+    {
+        "customer_id": "CUST1003",
+        "current_limit": 89843,
+        "currency": "USD"
+    },
+    {
+        "customer_id": "CUST1004",
+        "current_limit": 110328,
+        "currency": "USD"
+    },
+    {
+        "customer_id": "CUST1005",
+        "current_limit": 96509,
+        "currency": "USD"
+    },
+    {
+        "customer_id": "CUST1006",
+        "current_limit": 90214,
+        "currency": "USD"
+    },
+    {
+        "customer_id": "CUST1007",
+        "current_limit": 141588,
+        "currency": "USD"
+    },
+    {
+        "customer_id": "CUST1008",
+        "current_limit": 120226,
+        "currency": "USD"
+    },
+    {
+        "customer_id": "CUST1009",
+        "current_limit": 79220,
+        "currency": "USD"
+    }
+]
