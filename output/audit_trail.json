@@ -1,0 +1,222 @@
+[
+    {
+        "workflow_id": "WF_CUST1000",
+        "customer_id": "CUST1000",
+        "events": [
+            {
+                "step": "Exposure Aggregation",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Risk Scoring",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Limit Setting",
+                "status": "Completed",
+                "timestamp": "2026-01-11T14:37:25.569268"
+            }
+        ],
+        "final_status": "PASS"
+    },
+    {
+        "workflow_id": "WF_CUST1001",
+        "customer_id": "CUST1001",
+        "events": [
+            {
+                "step": "Exposure Aggregation",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Risk Scoring",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Limit Setting",
+                "status": "Completed",
+                "timestamp": "2026-01-11T14:37:25.569268"
+            }
+        ],
+        "final_status": "PASS"
+    },
+    {
+        "workflow_id": "WF_CUST1002",
+        "customer_id": "CUST1002",
+        "events": [
+            {
+                "step": "Exposure Aggregation",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Risk Scoring",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Limit Setting",
+                "status": "Completed",
+                "timestamp": "2026-01-11T14:37:25.569268"
+            }
+        ],
+        "final_status": "PASS"
+    },
+    {
+        "workflow_id": "WF_CUST1003",
+        "customer_id": "CUST1003",
+        "events": [
+            {
+                "step": "Exposure Aggregation",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Risk Scoring",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Limit Setting",
+                "status": "Completed",
+                "timestamp": "2026-01-11T14:37:25.569268"
+            }
+        ],
+        "final_status": "PASS"
+    },
+    {
+        "workflow_id": "WF_CUST1004",
+        "customer_id": "CUST1004",
+        "events": [
+            {
+                "step": "Exposure Aggregation",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Risk Scoring",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Limit Setting",
+                "status": "Completed",
+                "timestamp": "2026-01-11T14:37:25.569268"
+            }
+        ],
+        "final_status": "PASS"
+    },
+    {
+        "workflow_id": "WF_CUST1005",
+        "customer_id": "CUST1005",
+        "events": [
+            {
+                "step": "Exposure Aggregation",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Risk Scoring",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Limit Setting",
+                "status": "Completed",
+                "timestamp": "2026-01-11T14:37:25.569268"
+            }
+        ],
+        "final_status": "PASS"
+    },
+    {
+        "workflow_id": "WF_CUST1006",
+        "customer_id": "CUST1006",
+        "events": [
+            {
+                "step": "Exposure Aggregation",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Risk Scoring",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Limit Setting",
+                "status": "Completed",
+                "timestamp": "2026-01-11T14:37:25.569268"
+            }
+        ],
+        "final_status": "PASS"
+    },
+    {
+        "workflow_id": "WF_CUST1007",
+        "customer_id": "CUST1007",
+        "events": [
+            {
+                "step": "Exposure Aggregation",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Risk Scoring",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Limit Setting",
+                "status": "Completed",
+                "timestamp": "2026-01-11T14:37:25.569268"
+            }
+        ],
+        "final_status": "PASS"
+    },
+    {
+        "workflow_id": "WF_CUST1008",
+        "customer_id": "CUST1008",
+        "events": [
+            {
+                "step": "Exposure Aggregation",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Risk Scoring",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Limit Setting",
+                "status": "Completed",
+                "timestamp": "2026-01-11T14:37:25.569268"
+            }
+        ],
+        "final_status": "PASS"
+    },
+    {
+        "workflow_id": "WF_CUST1009",
+        "customer_id": "CUST1009",
+        "events": [
+            {
+                "step": "Exposure Aggregation",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Risk Scoring",
+                "status": "Completed",
+                "timestamp": "2025-12-02T00:00:00"
+            },
+            {
+                "step": "Limit Setting",
+                "status": "Completed",
+                "timestamp": "2026-01-11T14:37:25.569268"
+            }
+        ],
+        "final_status": "PASS"
+    }
+]
