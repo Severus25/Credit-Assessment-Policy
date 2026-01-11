@@ -1,0 +1,16 @@
+{
+    "rules": [
+        {
+            "condition": "Low",
+            "action": "Increase limit by 30%"
+        },
+        {
+            "condition": "Medium",
+            "action": "Increase limit by 20%"
+        },
+        {
+            "condition": "High",
+            "action": "No increase"
+        }
+    ]
+}
